@@ -35,3 +35,14 @@ section{padding:36px 0}
 .contact{border-top:1px solid var(--line)}
 footer{color:var(--soft);font-size:14px;padding-top:24px;padding-bottom:40px;border-top:1px solid var(--line)}
 @media (max-width:560px){.hero{padding-top:32px}.btn{width:100%;text-align:center}.btn.small{width:auto}}
+.lead.small{font-size:16px;margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-bottom:28px}
+.stats div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stats strong{display:block;font-size:34px;line-height:1.1;color:var(--brand)}
+.stats span{color:var(--soft);font-size:14px}
+.timeline{list-style:none;margin:0;padding:0 0 0 18px;border-left:3px solid var(--line)}
+.timeline li{margin:0 0 24px;padding-left:16px}
+.when{color:var(--soft);font-size:14px;margin:0}
+.stack-title{margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 8px}
+.chips li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:14px}
